@@ -1,0 +1,1 @@
+An engaging ‘Guess My Number’ game built with HTML, CSS, and JavaScript. This interactive game challenges players to guess a secret number, providing real-time feedback and dynamic visual changes based on the player’s input. It incorporates the DRY principle with efficient use of functions and offers features like input validation, and game reset.
