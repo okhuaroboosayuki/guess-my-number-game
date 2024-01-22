@@ -117,3 +117,51 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 605px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header .number {
+    font-size: 4rem;
+  }
+
+  main {
+    flex-direction: column;
+    margin-top: 4rem;
+    /* justify-content: center; */
+  }
+
+  main .right {
+    width: 100%;
+  }
+
+  main .right .message {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  header .between {
+    top: 15rem;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  header .between {
+    top: 16.7rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  header .between {
+    top: 13.7rem;
+  }
+}
